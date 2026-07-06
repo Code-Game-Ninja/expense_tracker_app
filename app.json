@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "scheme": "expensetracker",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "backgroundColor": "#0B0B0F",
     "icon": "./assets/images/icon.png",
     "ios": {
@@ -18,7 +18,11 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#0B0B0F"
-      }
+      },
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
     },
     "plugins": [
       "expo-router",
