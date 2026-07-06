@@ -16,9 +16,11 @@ haptics, and a category breakdown chart.
 - **Transactions** — month switcher, day-grouped list, **swipe-to-delete**
 - **Budgets** — per-category monthly limits with animated progress bars + over-budget states
 - **Insights** — donut chart + per-category breakdown with percentages
-- **Settings** — currency picker, persisted across restarts
+- **Settings** — currency picker, theme switcher, appearance settings, persisted across restarts
+- **Clear All Data** — reset all transactions and budgets with confirmation modal
 - **Demo data** — realistic sample transactions + budgets seeded on first launch
 - **100% local** — all data lives in on-device SQLite; no account, works offline
+- **Beautiful UI** — improved transaction layout with rounded cards and better spacing
 
 ---
 
